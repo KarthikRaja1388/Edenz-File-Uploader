@@ -1,0 +1,76 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image:url(../img/LoginBg.jpeg);
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#navbar{
+	background:none;
+	color:#fff;
+	border:none;
+}
+
+#navTitle{
+	width: 50%;
+	float:left;
+	padding: 0px 5px;
+}
+#navTitle h3{
+	margin-left: 20px;
+	line-height:20px;
+}
+#superuserBtn{
+	margin: 10px 5px 5px 5px;
+	padding-top: 5px;
+	border-radius:100px;
+	border:none;
+}
+#superuserBtn:active{
+	border:none;
+}
+section{
+	position: relative;
+	height:100vh;
+	margin: 0;
+}
+#formContainer{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	background:#000;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	border-radius:10px;
+	opacity:0.8;
+	box-shadow:5px 5px 5px #000;
+}
+#formHeader {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	font-size:25px;
+	color:#fff;
+	border-bottom:1px solid #fff;
+}
+button{
+	font-weight:bold;
+}
+#forgotPasswordLink{
+	padding-top:10px;
+}
+#forgotPasswordLink a{
+	text-decoration:none;
+	color:#6776BC;
+}
+#forgotPasswordLink a:hover{
+	color:#fff;
+}
+/*Common classes*/
+.form-spacing{
+	padding:10px 0px;
+	margin:10px 0px;
+}
